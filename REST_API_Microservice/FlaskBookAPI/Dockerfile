@@ -2,7 +2,7 @@ FROM python:3.6
 
 RUN pip3 install pipenv
 
-ENV PROJECT_DIR /D:/projects/PythonProjects/REST_API_Microservice/FlaskBookAPI
+ENV PROJECT_DIR /Flask-Microservice/REST_API_Microservice/FlaskBookAPI
 
 
 WORKDIR ${PROJECT_DIR}
